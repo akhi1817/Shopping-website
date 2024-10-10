@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
-import Products from '../Products/Products';
+import Newarrivals from '../Products/NewArrivals/Newarrivals';
+import TopSelling from '../Products/TopSelling/TopSelling';
+import Gallery from '../Products/DressStyle/Gallery';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -27,7 +30,10 @@ const Home = () => {
         </div>
       </div>
       <div className='row mt-3'>
-        <Products/>
+        <Newarrivals/>
+        <TopSelling/>
+        <Gallery/>
+        <Footer/>
       </div>
     </div>
     </>

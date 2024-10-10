@@ -61,7 +61,7 @@ const TopSelling = () => {
                     }
                 </div>
                 <div className='col-md-12 text-center'>
-                  <button className='btn btn-dark rounded-pill px-5 mt-3'>View All</button>
+                  <button className='btn btn-dark rounded-pill px-5 mt-5'>View All</button>
                 </div>
 
             </div>
