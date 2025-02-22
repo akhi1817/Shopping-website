@@ -9,8 +9,8 @@ const Gallery = () => {
           <h1 className="fw-bold">BROWSE BY DRESS STYLE</h1>
         </div>
         {galleryImg.map((val) => (
-          <div key={val.id} className="col-12 col-sm-4 col-md-3 col-lg-2 my-3">
-            <img src={val.src} alt={val.alt} className="img-fluid" />
+          <div key={val.id} className=" col-md-12 w-50 h-100 d-flex flex-wrap">
+            <img src={val.src} alt={val.alt}  className="img-fluid" />
           </div>
         ))}
       </div>

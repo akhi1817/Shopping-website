@@ -27,7 +27,7 @@ const Home = () => {
         {
         BrandImg.map((val) =>{
           return(
-            <img key={val.id} src={val.src} alt={val.alt}  className="img-fluid m-2" />
+            <img key={val.id} src={val.src} alt={val.alt} width={100} className="img-fluid m-2" />
                 )  
         })}
       </div>
