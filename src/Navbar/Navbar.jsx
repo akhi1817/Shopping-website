@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className='navbar-nav m-auto'>
             <li className='nav-item mx-3'><NavLink to='/' className='nav-link text-dark'>Home</NavLink></li>
             <li className='nav-item mx-3'><NavLink to='/category' className='nav-link text-dark'>Category</NavLink></li>
-            <li className='nav-item mx-3'><NavLink to='/products' className='nav-link text-dark'>Products</NavLink></li>
+            <li className='nav-item mx-3'><NavLink to='/allproducts' className='nav-link text-dark'>Products</NavLink></li>
             <li className='nav-item mx-3'><FaShoppingCart className='fs-4 mt-2' /></li>
             <li className='nav-item mx-3'><FaRegUserCircle className='fs-4 mt-2' /></li>
             <li className='nav-item mx-5 d-flex'><input type='search' placeholder='search for products...' className='form-control' /><button className='btn ms-3'><IoSearchOutline className='fs-4' /></button></li>
